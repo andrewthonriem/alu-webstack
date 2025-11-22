@@ -23,7 +23,7 @@ defaults
 
 frontend http_front
 	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/www.solomonleek.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.andrewonline.tech.pem
 	default_backend http_back
 
 backend http_back
